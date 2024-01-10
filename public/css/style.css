@@ -544,6 +544,32 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+#Navbar {
+  overflow: hidden;
+  padding: 30px 80px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  color: #fff;
+}
+
+#Navbar #fontHeader {
+  transition: 0.4s;
+  color: #ffffff;
+}
+
+#Navbar #logoColor {
+  transition: 0.4s;
+  color: #ffffff;
+}
+
+#Navbar #headerLeft {
+  transition: 0.4s;
+  color: #ffffff;
+}
+
 .fixed {
   position: fixed;
 }
@@ -730,9 +756,19 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-blue-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .border-slate-700 {
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-blue-100 {
@@ -878,6 +914,10 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-6 {
+  padding-top: 20rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -946,6 +986,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(000 000 000 / var(--tw-text-opacity));
 }
 
 .hover\:rounded-full:hover {
